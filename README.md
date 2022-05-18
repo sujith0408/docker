@@ -9,3 +9,5 @@ https://medium.com/@HoussemDellai/setup-sonarqube-in-a-docker-container-3c3908b6
 https://medium.com/@thiagoloureiro/code-analysis-with-sonarqube-docker-net-core-aee521ee8931
 
 https://www.apriorit.com/dev-blog/748-qa-integrating-quality-control-into-cicd
+
+https://www.mytechramblings.com/posts/running-a-sonarqube-scan-when-building-docker-image/
