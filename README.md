@@ -17,3 +17,5 @@ https://www.bogotobogo.com/DevOps/Docker/Docker_Prometheus_Grafana.php
 https://geekflare.com/?s=docker&post_type=post
 
 https://www.veritis.com/blog/top-five-docker-alternatives-that-can-boost-your-productivity/
+
+https://github.com/dotnet-architecture/eShopOnContainers
