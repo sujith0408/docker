@@ -19,3 +19,5 @@ https://geekflare.com/?s=docker&post_type=post
 https://www.veritis.com/blog/top-five-docker-alternatives-that-can-boost-your-productivity/
 
 https://github.com/dotnet-architecture/eShopOnContainers
+
+https://medium.com/bb-tutorials-and-thoughts/how-to-run-a-react-app-as-a-container-on-azure-vm-b73094fdc28a
