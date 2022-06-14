@@ -24,3 +24,7 @@ https://medium.com/bb-tutorials-and-thoughts/how-to-run-a-react-app-as-a-contain
 
 github actions
 https://github.com/skills/publish-packages
+
+https://sweetcode.io/?s=docker
+
+https://sweetcode.io/dockerfile-best-practices-useful-secure/
