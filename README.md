@@ -28,3 +28,7 @@ https://github.com/skills/publish-packages
 https://sweetcode.io/?s=docker
 
 https://sweetcode.io/dockerfile-best-practices-useful-secure/
+
+
+Production ready dockerfile
+https://medium.com/@marcong_54227/how-to-write-a-production-ready-dockerfile-58d18d4daddc
