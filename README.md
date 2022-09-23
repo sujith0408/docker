@@ -36,3 +36,6 @@ https://medium.com/@marcong_54227/how-to-write-a-production-ready-dockerfile-58d
 
 TugBoat CD for Docker
 https://github.com/teknowafel/Tugboat
+
+
+https://andrewlock.net/why-isnt-my-aspnetcore-app-in-docker-working/
