@@ -39,3 +39,7 @@ https://github.com/teknowafel/Tugboat
 
 
 https://andrewlock.net/why-isnt-my-aspnetcore-app-in-docker-working/
+
+
+Docker Vs Containerd
+https://kodekloud.com/blog/docker-vs-containerd/
