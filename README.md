@@ -97,5 +97,6 @@ Containers share the OS Kernel of the host whereas VMs have there own OS.
 
 Each OS has its own kernel or engine which uses diff APIs. Due to this, a Windows App cannot be run on Linux.
 
+![image](https://user-images.githubusercontent.com/51961967/212026706-5301c259-e32d-4ccc-9ff3-d21fad101cea.png)
 
 
