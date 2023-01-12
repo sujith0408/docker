@@ -89,4 +89,13 @@ Docker Architecture
 
 ![image](https://user-images.githubusercontent.com/51961967/212024729-fdf81669-504c-43aa-ad1d-c443727d35ff.png)
 
+![image](https://user-images.githubusercontent.com/51961967/212025114-9b9da6eb-658f-4fad-bcb6-2f100c826e53.png)
+
+Containers share the OS Kernel of the host whereas VMs have there own OS.
+
+![image](https://user-images.githubusercontent.com/51961967/212025585-5ca56da2-f37a-4311-b8a0-174b22f254a0.png)
+
+Each OS has its own kernel or engine which uses diff APIs. Due to this, a Windows App cannot be run on Linux.
+
+
 
