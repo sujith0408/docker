@@ -99,4 +99,23 @@ Each OS has its own kernel or engine which uses diff APIs. Due to this, a Window
 
 ![image](https://user-images.githubusercontent.com/51961967/212027032-45c53b1a-ca39-4a28-812d-95d8e21b9490.png)
 
+docs.docker.com
+
+![image](https://user-images.githubusercontent.com/51961967/212029265-4414eeda-0b96-4bc8-966b-7ce64cc37aed.png)
+
+
+To check Docker Version run,
+docker version
+
+Dockerfile is a plain text file.
+It contains a set of instructions.
+To package the Application into an Image.
+
+![image](https://user-images.githubusercontent.com/51961967/212042238-298ec846-af8a-49eb-bcde-304ba89df2e1.png)
+
+![image](https://user-images.githubusercontent.com/51961967/212044414-e4d3a13d-90f2-44a4-af96-66a928a3f93e.png)
+
+
+
+
 
