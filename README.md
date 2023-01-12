@@ -139,4 +139,20 @@ nodejs app.js
 ![image](https://user-images.githubusercontent.com/51961967/212063342-9a69ddb7-20fa-4649-851a-31c1fb89aa19.png)
 
 
+Dockerfile
+![image](https://user-images.githubusercontent.com/51961967/212070877-3c721b41-77cc-4702-b806-a84d43f4bed5.png)
+
+Build Docker Image
+docker build -t hello-docker .
+
+Check Docker Images
+docker images
+docker image ls
+docker images --all
+
+Run the Docker Image
+docker run hello-docker
+
+
+
 
