@@ -153,6 +153,138 @@ docker images --all
 Run the Docker Image
 docker run hello-docker
 
+LINUX
+
+Open Source
+Case Sensitive
+Dir / in Linux whereas \ in Windows
+Everything is a file in Linux
+
+![image](https://user-images.githubusercontent.com/51961967/212075414-86997c1e-04da-4d24-8595-74aa74de29ca.png)
+
+
+![image](https://user-images.githubusercontent.com/51961967/212079191-5b0a6c4c-16c4-4e4e-8eb8-3e6ac01c5143.png)
+
+root is the loggedin user
+after @ is the machine or container id
+/ is for root directory
+# is with highest priveliges
+$ is for limited priveliges
+
+whoami
+
+location of the program
+echo $0
+
+history of activities
+history
+
+Package Management
+
+
+apt
+advanced package tool
+
+to list all the packages whether installed or not installed
+apt list
+
+to update package database
+apt update
+
+to install package
+apt install nano
+
+to uninstall package
+apt remove nano
+apt remove nano -y
+
+File System
+
+![image](https://user-images.githubusercontent.com/51961967/212083750-5c28bcce-3641-43c6-ab12-4579269a7c83.png)
+
+![image](https://user-images.githubusercontent.com/51961967/212084043-02152814-6aee-4fe7-9d01-1228013e4aff.png)
+bin  --> binaries or program files
+boot --> booting files
+dev  --> device files
+etc  --> editable text configuration files
+home --> home dir for users
+root --> home for only root users
+lib  --> software library dependancy files
+var  --> variables like log files, frequently updated files
+proc --> process files of running processes
+
+Print Working Directory
+pwd
+
+List all the items
+ls
+ls -1 (less details)
+ls -l (more details)
+
+Change directory
+cd
+
+cd etc/a press tab to see all the dir starting with a
+
+move one level up
+cd ..
+
+move two level up
+cd ../..
+
+move from any directory to root directory
+cd ~
+
+Manipulating files and directories
+Create a new directory
+mkdir test
+
+Move or Rename a directory
+mv test Docker
+mv a.txt b.txt
+mv b.txt /home
+
+Create a new file
+touch hello.txt
+
+Create multiple files
+touch learn{1..10}.txt
+
+Remove multiple files
+rm learn*
+rm file.txt file2.txt file3.txt
+rm -r (recursively)
+
+
+Editing and viewing files
+nano file1.txt
+
+view file contents
+cat file1.txt
+
+more etc/adduser.conf  (Detailed file view with % but cannot move up, only down can be moved)
+
+less etc/adduser.conf (Can move cursor up and down)
+
+head -n 5 etc/adduser.conf
+
+tail -n 5 etc/adduser.conf
+
+Redirection
+
+stdin  represents Keyboard
+stdout represents Console/Screen
+
+Display content from multiple files
+cat file1.txt file2.txt
+cat file1.txt > file2.txt
+cat file1.txt file2.txt > combined.txt
+echo "Append Content" >> combined.txt
+
+
+
+
+
 
 
 
