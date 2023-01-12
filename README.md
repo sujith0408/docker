@@ -115,7 +115,28 @@ To package the Application into an Image.
 
 ![image](https://user-images.githubusercontent.com/51961967/212044414-e4d3a13d-90f2-44a4-af96-66a928a3f93e.png)
 
+Container is a special process that has its own file system.
 
+Application gets loaded inside the container.
+
+![image](https://user-images.githubusercontent.com/51961967/212052615-e33efa90-510d-4c3a-8414-3fa441d34c6b.png)
+
+
+mkdir hello-docker
+cd hello-docker
+
+apt upgrade
+apt install nodejs
+
+touch app.js
+vi app.js
+console.log("Hello Docker!");
+Esc
+`:x
+
+nodejs app.js
+
+![image](https://user-images.githubusercontent.com/51961967/212063342-9a69ddb7-20fa-4649-851a-31c1fb89aa19.png)
 
 
 
