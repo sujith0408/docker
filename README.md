@@ -32,12 +32,6 @@ https://sweetcode.io/?s=docker
 
 https://sweetcode.io/dockerfile-best-practices-useful-secure/
 
-
-
-Docker is a Platform.
-To Build, Run and Ship Applications.
-
-
 Production ready dockerfile
 https://medium.com/@marcong_54227/how-to-write-a-production-ready-dockerfile-58d18d4daddc
 
@@ -51,3 +45,48 @@ https://andrewlock.net/why-isnt-my-aspnetcore-app-in-docker-working/
 
 Docker Vs Containerd
 https://kodekloud.com/blog/docker-vs-containerd/
+
+
+Docker is a Platform.
+To Build, Run and Ship Applications consistently.
+
+Reasons
+Missing Files.
+Version Mismatch.
+Different Configuration settings.
+
+Container is an isolated environment.
+To run an application.
+
+Virtual Machine is an abstraction of a machine(Physical Hardware)
+
+We can run 2 Virtual Machines( Windows VM, Linux VM) on a Physical Server based on Mac Os using Hypervisor.
+
+Hypervisor is a software.
+To create and manage Virtual Machines.
+
+Hypervisor Types:
+Virtual Box(Cross Platform)
+Vmware(Cross Platform)
+Hyper-v(Windows Only)
+
+Benefit of VM
+Run 2 different App versions in isolation on same physical harware but 2 different VMs.
+
+Problem of VM
+Each VM needs a Full-Blown OS
+Slow to start
+Resource intensive
+
+Containers
+To run multiple applications in isolation
+LightWeight
+Use OS of the host
+Start quickly
+Need less hardware resources
+
+Docker Architecture
+
+![image](https://user-images.githubusercontent.com/51961967/212024729-fdf81669-504c-43aa-ad1d-c443727d35ff.png)
+
+
