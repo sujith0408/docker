@@ -288,14 +288,37 @@ Docker History
 
 2010 - Docker Inc was founded by Kamel Founadi, Solomon Hykes, and Sebastien Pahl during the Y Combinator Summer 2010 startup incubator group and launched in 2011
 
-2013 - Docker released
+2013 - Docker released in March 2013
 
-Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers. 
+Docker is a set of platform as a service (PaaS) products.
+
+Uses OS-level virtualization to deliver software in packages called containers. VM uses hardware level virtualization.
+
 The service has both free and premium tiers. 
+
 The software that hosts the containers is called Docker Engine.
+
+Docker can be installed on any OS.
+
+Docker Engine runs natively on Linux distribution.
+
+Docker is written in Go language.
+
+Docker 
 
 ![image](https://user-images.githubusercontent.com/51961967/212539254-69c51bd1-5b93-419e-a2f7-fa9b53bcb192.png)
 
+ Advantages of Docker:
+ No pre-allocation of RAM
+ 
+ CI efficiency - same image used across deployment process
+ 
+ Less Cost
+ 
+ Light Weight - Less resource intensive like RAM, CPU
+ 
+ 
+ 
  
 
 
