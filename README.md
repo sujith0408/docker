@@ -317,7 +317,17 @@ Docker
  
  Light Weight - Less resource intensive like RAM, CPU
  
+ Dis-Advantages of Docker:
  
+ Docker is not a good solution for Application that needs a rich UI.
+ 
+ No solution for data recovery & backup.
+ 
+ Difficult to manage large number of containers.
+ 
+ Does not provide cross-platform compatibility. App designed to run on docker container based on Windows, then it cannot run on Linux or vice-versa.
+ 
+ Suitable when development and testing OS are same like, ubuntu --> ubuntu not ubuntu --> centos or rhel or any other linux distro
  
  
 
