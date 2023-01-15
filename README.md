@@ -331,6 +331,59 @@ Docker
  
  
 
+Dockerfile contains dependencies and required software.
+
+Docker Container is a layered file system. Ubuntu-->Google Chrome-->Directory
+
+Docker EcoSystem
+------------------
+
+![image](https://user-images.githubusercontent.com/51961967/212549436-0f5719aa-9d8e-4724-b862-ee7a63e333ef.png)
+
+Components of Docker
+--------------------
+Docker Daemon/Engine
+
+It runs on host OS.
+Responsible for running Docker containers.
+It can communicate with other daemons.
+
+
+Docker Client
+
+Users can communicate with Docker Daemon through Docker Client.
+Uses commands and REST API to communicate with other Daemons.
+Can communicate with more than one daemon.
+
+
+Docker Host
+Used to provide an environment to execute and run apps.
+It contains the Docker daemon, images, containers, networks and storages.
+
+Docker Registry
+Stores and manages Docker images.
+2 types of registry:
+Public Registry  --> Images in Docker Hub is publicly available.
+Private Registry --> Images are available within the enterprise.
+
+Docker Images
+ReadOnly Binary Templates used to create Docker Containers.
+Contains dependencies and required software/config to run a program.
+
+
+Ways to create Docker Images
+----------------------------
+Take image from Docker Hub
+Create image from Dockerfile
+Create image from existing docker container
+
+
+Docker Container
+It is a package that is needed to run the application.
+
+It is like a Virtual Machine.
+
+Images becomes containers when run on Docker Engine.
 
 
 
