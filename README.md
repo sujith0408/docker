@@ -282,7 +282,21 @@ cat file1.txt file2.txt > combined.txt
 echo "Append Content" >> combined.txt
 
 
+Docker History
 
+2008 - Founded as DotCloud  by Solomon Hykes in Paris.
+
+2010 - Docker Inc was founded by Kamel Founadi, Solomon Hykes, and Sebastien Pahl during the Y Combinator Summer 2010 startup incubator group and launched in 2011
+
+2013 - Docker released
+
+Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers. 
+The service has both free and premium tiers. 
+The software that hosts the containers is called Docker Engine.
+
+![image](https://user-images.githubusercontent.com/51961967/212539254-69c51bd1-5b93-419e-a2f7-fa9b53bcb192.png)
+
+ 
 
 
 
