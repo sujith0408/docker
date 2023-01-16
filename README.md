@@ -386,5 +386,25 @@ It is like a Virtual Machine.
 Images becomes containers when run on Docker Engine.
 
 
+Docker Commands
+
+To see all docker images present on your local machine
+docker images
+
+To find out images in DockerHub
+docker search nginx
+
+To download image from DockerHub to local machine
+docker pull nginx
+
+To give name to the container, i--> interactive t--> terminal d-->dettach
+docker run -itd --name sujith ubuntu /bin/bash
+
+To check Service Docker status
+service docker status
+
+To start Container
+docker start sujith
+
 
 
