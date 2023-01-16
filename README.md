@@ -397,14 +397,29 @@ docker search nginx
 To download image from DockerHub to local machine
 docker pull nginx
 
-To give name to the container, i--> interactive t--> terminal d-->dettach
-docker run -itd --name sujith ubuntu /bin/bash
+To give name to the container, i--> interactive t--> terminal d-->dettach Run = Create + Start
+docker run -itd --name testvm ubuntu /bin/bash
 
 To check Service Docker status
 service docker status
 
 To start Container
-docker start sujith
+docker start testvm
+
+To get inside the container
+docker attach testvm
+
+To list all the containers
+docker ps -a
+
+To list only running containers
+docker ps
+
+To stop container
+docker stop testvm
+
+To delete container
+docker rm testvm
 
 
 
