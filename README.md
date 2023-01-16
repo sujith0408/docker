@@ -388,10 +388,15 @@ Images becomes containers when run on Docker Engine.
 
 Docker Commands
 
+which docker
+
+To check docker version
+docker -v or docker --version
+
 To see all docker images present on your local machine
 docker images
 
-To find out images in DockerHub
+To find out different images in DockerHub
 docker search nginx
 
 To download image from DockerHub to local machine
@@ -402,12 +407,18 @@ docker run -itd --name testvm ubuntu /bin/bash
 
 To check Service Docker status
 service docker status
+docker info
+
+To start Docker Service
+service docker start
 
 To start Container
 docker start testvm
 
 To get inside the container
 docker attach testvm
+
+cat /etc/os-release
 
 To list all the containers
 docker ps -a
@@ -421,5 +432,6 @@ docker stop testvm
 To delete container
 docker rm testvm
 
+Can we remove the container that is already running. No, container needs to be stopped first.
 
 
