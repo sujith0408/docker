@@ -449,9 +449,7 @@ ENV myname Sujith
 COPY testfile1 /tmp
 ADD test.tar.gz /tmp
 
-
 Docker Volumes
-
 https://stackoverflow.com/questions/34357252/docker-data-volume-vs-mounted-host-directory
 
 
