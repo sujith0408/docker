@@ -434,4 +434,24 @@ docker rm testvm
 
 Can we remove the container that is already running. No, container needs to be stopped first.
 
+![image](https://user-images.githubusercontent.com/51961967/213117420-8556f3f7-46a5-4ecf-a9f0-0ea26459cb25.png)
+
+![image](https://user-images.githubusercontent.com/51961967/213120521-0ce2f8b8-b11a-4ad4-ade7-0a270069b7ce.png)
+
+
+
+![image](https://user-images.githubusercontent.com/51961967/213120284-e77677f7-3e82-46ec-96cf-e1f3ea6e22bd.png)
+
+FROM ubuntu
+WORKDIR /tmp
+RUN echo "Hare Krishna" > /tmp/testfile
+ENV myname Sujith
+COPY testfile1 /tmp
+ADD test.tar.gz /tmp
+
+
+Docker Volumes
+
+https://stackoverflow.com/questions/34357252/docker-data-volume-vs-mounted-host-directory
+
 
