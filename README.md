@@ -452,4 +452,18 @@ ADD test.tar.gz /tmp
 Docker Volumes
 https://stackoverflow.com/questions/34357252/docker-data-volume-vs-mounted-host-directory
 
+Volume is simply a directory inside the container.
+Declare directory as Volume and then share the Volume.
+Even if we stop the container, we can access the Volume.
+Volume will be created in one container.
+You can declare directory as a volume only while creating the container.
+You cant create a Volume from an existing container.
+You can share volumes across any number of containers.
+Volume will not be included when you update an image.
+You can map volume in 2 ways:-
+Host --> Container
+Container --> Host
+
+Volumes can be shared Host to Container and Container to Host.
+
 
