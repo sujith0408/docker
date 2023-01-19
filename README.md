@@ -461,8 +461,9 @@ You cant create a Volume from an existing container.
 You can share volumes across any number of containers.
 Volume will not be included when you update an image.
 You can map volume in 2 ways:-
+
+Container --> Container
 Host --> Container
-Container --> Host
 
 Volumes can be shared Host to Container and Container to Host.
 
