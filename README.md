@@ -467,4 +467,22 @@ Host --> Container
 
 Volumes can be shared Host to Container and Container to Host.
 
+Benefits of Docker Volume
+
+Decoupling container from storage.
+On deleting container Volume does not delete.
+Share Volume among different containers.
+Attach volume to containers.
+
+share volume from existing container with new container
+docker run -it --name container2 --privileged=true --volumes-from radheradhe222 ubuntu /bin/bash
+
+
+![image](https://user-images.githubusercontent.com/51961967/213659287-08e52c4e-ae89-44d9-b136-cfbdef82817b.png)
+
+![image](https://user-images.githubusercontent.com/51961967/213659415-dce1c360-e50f-4e86-a311-cc9e04cd0361.png)
+
+
+
+![image](https://user-images.githubusercontent.com/51961967/213660966-a3401f0e-25d5-4b85-83de-3120714bc42b.png)
 
