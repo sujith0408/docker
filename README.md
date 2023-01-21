@@ -477,6 +477,17 @@ Attach volume to containers.
 share volume from existing container with new container
 docker run -it --name container2 --privileged=true --volumes-from radheradhe222 ubuntu /bin/bash
 
+touch krishna.txt
+
+exit
+
+docker start radheradhe222
+
+docker attach radheradhe222
+
+cd /volume2
+
+ls
 
 ![image](https://user-images.githubusercontent.com/51961967/213659287-08e52c4e-ae89-44d9-b136-cfbdef82817b.png)
 
