@@ -499,6 +499,9 @@ ls
 
 share volume from host to container - Host to Container sharing
 ----------------------------------------------------------------------------------------
+![image](https://user-images.githubusercontent.com/51961967/213863606-ea1255f9-6591-43fd-8905-24adc6df321c.png)
+
+![image](https://user-images.githubusercontent.com/51961967/213863621-6aafd366-1d4b-4f41-9487-216b09a7f5ce.png)
 
 
 docker volume commands
