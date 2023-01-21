@@ -474,7 +474,8 @@ On deleting container Volume does not delete.
 Share Volume among different containers.
 Attach volume to containers.
 
-share volume from existing container with new container
+share volume from existing container with new container - Container to Container sharing
+----------------------------------------------------------------------------------------
 docker run -it --name container2 --privileged=true --volumes-from radheradhe222 ubuntu /bin/bash
 
 touch krishna.txt
@@ -493,9 +494,15 @@ ls
 
 ![image](https://user-images.githubusercontent.com/51961967/213659415-dce1c360-e50f-4e86-a311-cc9e04cd0361.png)
 
-
-
 ![image](https://user-images.githubusercontent.com/51961967/213660966-a3401f0e-25d5-4b85-83de-3120714bc42b.png)
-
-
 ![image](https://user-images.githubusercontent.com/51961967/213661314-e51c3872-78cd-4fc4-a4d2-2972d20c5f8f.png)
+
+share volume from host to container - Host to Container sharing
+----------------------------------------------------------------------------------------
+
+
+docker volume commands
+----------------------------
+
+![image](https://user-images.githubusercontent.com/51961967/213863358-117d5a6c-01f7-4c91-9542-60dc2c286b9e.png)
+
