@@ -524,4 +524,21 @@ Logical ports work at transport layer.
 
 ![image](https://user-images.githubusercontent.com/51961967/213866273-cd8a3e64-ca5d-43bf-92c4-3cd31f2bd78d.png)
 
+https://www.cloudbees.com/blog/docker-expose-port-what-it-means-and-what-it-doesnt-mean
+
+
+docker attach vs docker exec
+
+![image](https://user-images.githubusercontent.com/51961967/213867656-769a1ce1-dc94-4baa-8983-2d9e5e26cfba.png)
+
+
+docker expose vs publish
+
+![image](https://user-images.githubusercontent.com/51961967/213867901-dec53fd2-435a-45b8-a1a9-247d5fcd8a38.png)
+
+![image](https://user-images.githubusercontent.com/51961967/213867953-40ecacf5-c10a-4c8e-a9f1-da66e090a3c1.png)
+
+
+
+
 
