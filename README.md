@@ -509,3 +509,19 @@ docker volume commands
 
 ![image](https://user-images.githubusercontent.com/51961967/213863358-117d5a6c-01f7-4c91-9542-60dc2c286b9e.png)
 
+
+docker port expose
+---------------------
+
+Logical Ports - 0 - 65535
+Logical ports work at transport layer.
+
+![image](https://user-images.githubusercontent.com/51961967/213865626-e4d47592-4efd-4674-a925-232c0adec4da.png)
+
+
+![image](https://user-images.githubusercontent.com/51961967/213865663-e0f51cd4-b4d3-4382-b755-1a6f5c052778.png)
+
+
+![image](https://user-images.githubusercontent.com/51961967/213866273-cd8a3e64-ca5d-43bf-92c4-3cd31f2bd78d.png)
+
+
