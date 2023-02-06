@@ -538,6 +538,18 @@ docker expose vs publish
 
 ![image](https://user-images.githubusercontent.com/51961967/213867953-40ecacf5-c10a-4c8e-a9f1-da66e090a3c1.png)
 
+dockerhub
+----------------------------------------
+![image](https://user-images.githubusercontent.com/51961967/216921172-f89af5b7-710c-4283-b1c0-d4c86c7ef86b.png)
+
+![image](https://user-images.githubusercontent.com/51961967/216922395-e0290158-2c2d-4ba1-a770-b91ddca1cea7.png)
+
+
+Stop and remove all containers and images
+-----------------------------------------
+![image](https://user-images.githubusercontent.com/51961967/216918704-876fc8d7-7463-46f6-beba-ff321e69b030.png)
+
+
 
 
 
