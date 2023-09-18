@@ -556,3 +556,59 @@ Docker commands
 https://faun.pub/useful-docker-commands-and-aliases-9ea79191832f
 
 https://www.youtube.com/watch?v=RqTEHSBrYFw   ****4 hr session****
+
+
+# Use the official ASP.NET Core 3.1 runtime image as the base image
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1 AS base
+WORKDIR /app
+EXPOSE 80
+
+# Use the official ASP.NET Core 3.1 SDK image as the build image
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
+WORKDIR /src
+
+# Create a non-root user (svcio) with the appropriate permissions
+RUN useradd -u 1234 -m svcio && \
+    mkdir -p /etc/ssl/sedaesp && \
+    mkdir -p /usr/lib/ssl && \
+    chown -R svcio:svcio /etc/ssl/sedaesp /usr/lib/ssl
+
+# Copy the solution file and restore dependencies as the non-root user
+COPY ["webapp.sln", "webapp/"]
+COPY ["webapp/webapp/webapp.csproj", "webapp/webapp/"]
+COPY ["webapp/dal/dal.csproj", "webapp/dal/"]
+COPY ["webapp/bl/bl.csproj", "webapp/bl/"]
+COPY ["webapp/nuget.config", "webapp/"]
+
+USER svcio
+
+RUN dotnet restore "webapp.sln"
+
+# Copy only the necessary files for building and publishing
+COPY ["webapp/webapp/", "webapp/webapp/"]
+COPY ["webapp/dal/", "webapp/dal/"]
+COPY ["webapp/bl/", "webapp/bl/"]
+
+# Modify files in /usr/lib/ssl using sed
+# Replace '/usr/lib/ssl' and '/etc/ssl/sedaesp' with the actual paths
+RUN sed -i 's/oldtext/newtext/' /usr/lib/ssl/openssl.cnf
+
+# Copy the certificate file from the build agent to the container
+COPY ["src/certificates/in-lan.pem", "/usr/local/share/ca-certificates/ca-cert.crt"]
+
+# Update the certificate store
+RUN update-ca-certificates
+
+# Build the application
+WORKDIR "/src/webapp"
+RUN dotnet build "webapp.csproj" -c Release -o /app/build
+
+# Publish the application
+FROM build AS publish
+RUN dotnet publish "webapp.csproj" -c Release -o /app/publish
+
+# Build the final image using the published files
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "webapp.dll"]
