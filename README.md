@@ -612,3 +612,27 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "webapp.dll"]
+
+# Use the official ASP.NET 3.1 runtime as the base image
+FROM mcr.microsoft.com/dotnet/aspnet:3.1 AS base
+WORKDIR /app
+
+# Create a non-root user with a specific UID and GID
+# Adjust the values as needed to match your requirements
+RUN groupadd -g 1001 myusergroup && useradd -u 1001 -g myusergroup -m -s /bin/bash myuser
+
+# Set the working directory and grant ownership to the non-root user
+RUN chown -R myuser:myusergroup /app
+
+# Switch to the non-root user
+USER myuser
+
+# Expose the port your application listens on (if applicable)
+EXPOSE 80
+
+# Copy your published ASP.NET 3.1 application into the container
+COPY --chown=myuser:myusergroup [your-published-app-directory] .
+
+# Define the entry point for your application
+CMD ["dotnet", "[YourApp.dll]"]
+
