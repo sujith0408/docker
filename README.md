@@ -636,3 +636,6 @@ COPY --chown=myuser:myusergroup [your-published-app-directory] .
 # Define the entry point for your application
 CMD ["dotnet", "[YourApp.dll]"]
 
+NUGET restore from Docker
+-----------------------------
+https://github.com/dotnet/dotnet-docker/blob/main/documentation/scenarios/nuget-credentials.md
