@@ -639,3 +639,11 @@ CMD ["dotnet", "[YourApp.dll]"]
 NUGET restore from Docker
 -----------------------------
 https://github.com/dotnet/dotnet-docker/blob/main/documentation/scenarios/nuget-credentials.md
+
+
+https://blog.devops.dev/consuming-private-nuget-feeds-from-a-dockerfile-in-a-secure-and-devops-friendly-manner-b5c90ea90bba
+
+https://www.4tecture.ch/blog/2020/08/31/Restore-Nuget-Packages-inside-a-Docker-Container/
+
+https://github.com/dotnet/dotnet-docker/blob/main/documentation/scenarios/nuget-credentials.md
+
